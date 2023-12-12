@@ -3,6 +3,6 @@ Este Proyecto tiene como finalidad mostrar mis datos personales, tales como dato
 
 <p align="center">
   <kbd>
-    <img src="https://ibb.co/M5SyS1B"></img>
+    <img src="https://drive.google.com/file/d/1xaYGGiYdsG2B0YFO1ilCaLfhTu-c3Cv-/view?usp=sharing"></img>
   </kbd>
 </p>
