@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conoceme- Personal Page</title>
+    <link rel="stylesheet" href="../style/index.css" />
+  </head>
+  <header>
+    <!-- <div class="MyLogo"><img src="" alt="Mi Logo" /></div> -->
+
+    <div class="nav-bar">
+      <div class="option-nav-bar">
+        <span class="nav"
+          ><a href="#conoceme" class="nav-links">Conoceme</a></span
+        >
+      </div>
+
+      <div class="option-nav-bar">
+        <span class="nav"
+          ><a href="#mis-proyectos" class="nav-links">Mis proyectos</a></span
+        >
+      </div>
+      <div class="option-nav-bar">
+        <span class="nav"
+          ><a href="#lenguajes" class="nav-links"
+            >Mis Lenguajes Favoritos</a
+          ></span
+        >
+      </div>
+      <div class="option-nav-bar">
+        <span class="nav"
+          ><a href="#redes-sociales" class="nav-links"
+            >Mis redes sociales</a
+          ></span
+        >
+      </div>
+
+      <div class="buttonChangeTheme">
+        <input
+          onclick="setThemeDark()"
+          type="button"
+          value="Dark-Theme"
+          class="buttonSetTheme"
+          id="setTheme"
+          style="background-color: rgb(7, 160, 106); font-weight: bold"
+        />
+      </div>
+    </div>
+  </header>
+  <body style="background-color: rgb(125, 21, 130)">
+    <!-- INICIO: DEVELOPER Y WELCOME TO MY WORD -->
+
+    <div class="Developer-container">
+      <div id="inicio"></div>
+      <div class="Title-Developer">
+        <h1><b>Developer {cmt}</b></h1>
+      </div>
+      <br />
+      <div class="Span-Title">
+        <span><b>Welcome to my World..</b></span>
+      </div>
+      <div class="Section-button">
+        <input
+          onclick="location.href='https:wa.me/51923559076'"
+          type="button"
+          value="Contacto"
+        />
+      </div>
+    </div>
+
+    <!-- QUIEN SOY  -->
+
+    <div class="Mis-Lenguajes-Fav">
+      <div id=""></div>
+      <div class="Title-Lenguajes">
+        <h2><b>¿Quien soy yo?</b></h2>
+      </div>
+
+     
+    </div>
+    <!-- MIS PROYECTOS PERSONALES: IMAGENES DE MIS PROYECTOS -->
+
+    <div class="Mis-Proyectos">
+      <div id="mis-proyectos"></div>
+      <div class="Title-Misproyects">
+        <h2><b>Mis Proyectos</b></h2>
+      </div>
+
+      <article class="card-manager">
+        <figure class="card-proyect">
+          <img src="../assets/img/ERP-fagham.png" alt="" />
+          <figcaption>
+            <h4>Sistema de inventariado para fagham Store S.A.C</h4>
+            <p>
+              Este proyecto consiste en un sistema de gestion del inventario de
+              la empresa Fagham S.A.C
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="card-proyect">
+          <img src="../assets/img/calculadora_JS.png" alt="" />
+          <figcaption>
+            <h4>Calculadora JAVA-SCRIPT</h4>
+            <p>
+              Usando las librerias de JS para hacer operaciones matematicas, se
+              realizo este mini proyecto de calculadora
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="card-proyect">
+          <img src="../assets/img/libreria_PHP.png" alt="" />
+          <figcaption>
+            <h4>Gestor de libros PHP</h4>
+            <p>
+              Este proyecto consiste en la creacion de un gestor de inventario
+              de libros dentro de una biblioteca.
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure class="card-proyect nth-child-4">
+          |
+          <img src="../assets/img/perfil.png.jpg" alt="" style="height: auto" />
+          <figcaption>
+            <h4>Pagina persona JAVA-SCRIPT</h4>
+            <p>
+              Este proyecto consiste en la creacion de mi pagina personal
+              profesional, desde la cual podran conocer mas de mi.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <!-- MIS LENGUAJES FAVORITOS -->
+
+    <div class="Mis-Lenguajes-Fav">
+      <div id="lenguajes"></div>
+      <div class="Title-Lenguajes">
+        <h2><b>Mis Lenguajes</b></h2>
+      </div>
+
+      <article class="card-Manager-lenguajes">
+        <div class="card-lenguajes">
+          <b><h4>CSS</h4></b>
+        </div>
+        <div class="card-lenguajes">
+          <b><h4>HTML</h4></b>
+        </div>
+        <div class="card-lenguajes">
+          <b><h4>JAVA-SCRIPT</h4></b>
+        </div>
+        <div class="card-lenguajes">
+          <b><h4>SQL</h4></b>
+        </div>
+        <div class="card-lenguajes">
+          <b><h4>JAVA</h4></b>
+        </div>
+        <div class="card-lenguajes">
+          <b><h4>PHP</h4></b>
+        </div>
+      </article>
+    </div>
+
+    <!-- BODY: MIS REDES SOCIALES -->
+
+    <div class="Mis-Proyectos" style="height: 600px">
+      <div id="redes-sociales"></div>
+      <div class="Title-Lenguajes">
+        <h2><b>Redes Sociales</b></h2>
+      </div>
+
+      <article class="card-Manager-lenguajes">
+        <figure class="card-lenguajes card-sociales">
+          <a
+            href="https://instagram.com/ttitocarlosmurrugarra?igshid=NGVhN2U2NjQ0Yg=="
+          >
+            <img src="../assets/img/instagram.png" alt="Instagram" />
+          </a>
+        </figure>
+        <figure class="card-lenguajes card-sociales">
+          <a
+            href="https://www.facebook.com/profile.php?id=100006847455250&mibextid=rS40aB7S9Ucbxw6v"
+          >
+            <img src="../assets/img/facebook.png" alt="Facebook" />
+          </a>
+        </figure>
+        <figure class="card-lenguajes card-sociales">
+          <a href="https://wa.me/51923559076">
+            <img src="../assets/img/whatsapp.png" alt="Whatsapp" />
+          </a>
+        </figure>
+      </article>
+    </div>
+  </body>
+
+  <!-- FOOTER:  -->
+
+  <footer class="footer-index">
+    <div id="conoceme"></div>
+    <div class="footer-manager">
+      <section class="section-footer uno-foo">
+        <h4><b>Mensaje Importante</b></h4>
+        <br />
+        <span class="correo">
+          Dejame un correo y hazme saber <br />
+          tu opinion a cerca de mis trabajos<br />
+          , recuerda que si lo puedes soñar, <br />
+          lo puedes lograr
+
+          <br />
+          <br />
+          <a href="">cnurrugarrat@ucvvirtual.edu.pe</a>
+        </span>
+      </section>
+
+      <section class="section-footer dos-foo">
+        <h4><b>Visitame en mis redes sociales:</b></h4>
+        <br />
+
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/ttitocarlosmurrugarra?igshid=NGVhN2U2NjQ0Yg=="
+              >Mi instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100006847455250&mibextid=rS40aB7S9Ucbxw6v"
+              >Mi facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://media.licdn.com/dms/image/D4E35AQEQyT9PtMm9Qg/profile-framedphoto-shrink_100_100/0/1694799068716?e=1703095200&v=beta&t=6gm64DgghFe7xpUHYN7kh72okyZ4f4w7uxsHgonD6MA"
+              >Mi Linkedin</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-footer tres-foo"></section>
+    </div>
+  </footer>
+
+  <script src="../js/funciones.js"></script>
+</html>
